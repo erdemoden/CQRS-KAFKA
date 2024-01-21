@@ -4,7 +4,8 @@ import org.erdem.cqrs.Components.CommandEventsFactory;
 import org.erdem.cqrs.Components.ICommandEvents;
 
 public enum EventTypes {
-    CREATE("Create","createCommandEvent");
+    CREATE("Create","createCommandEvent"),
+    UPDATE("Update","updateCommandEvent");
 
     String eventType;
     String commandEvents;
